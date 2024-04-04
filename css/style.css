@@ -1,4 +1,4 @@
-.vh-75{
+.vh-70{
     height: 70vh !important;
     max-height: 70vh !important;
 }
@@ -13,4 +13,9 @@
 }
 .no-underline{
     text-decoration: none !important;
+}
+@media (min-width: 992px) {
+    .w-lg-50{
+        width: 50%;
+    }
 }
