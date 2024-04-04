@@ -1,0 +1,16 @@
+.vh-75{
+    height: 75vh !important;
+    max-height: 75vh !important;
+}
+.transparente-background{
+    background-color: transparent !important;
+}
+.h-250{
+    height: 250px !important;
+    min-height: 250px !important;
+    max-height: 250px !important;
+}
+.logo-navbar{
+    width: 45px;
+    height: 45px;
+}
