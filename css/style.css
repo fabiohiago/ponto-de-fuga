@@ -39,3 +39,12 @@
     height: 525px !important;
     max-height: 525px !important;
 }
+.il-whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    z-index: 999;
+}
+.il-whatsapp-button-size{
+    width: 70px;
+}
