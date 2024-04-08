@@ -27,3 +27,10 @@
         width: 50%;
     }
 }
+.il-w-20{
+    width: 20%;
+}
+.il-mh-250{
+    height: 550px !important;
+    max-height: 550px !important;
+}
