@@ -7,13 +7,14 @@
     <title>Ponto de Fuga</title>
     <link rel="stylesheet" href="./lib/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-light m-0 p-0">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="img/logoBlack.png" class="il-logo-navbar">
+                <img src="img/icons/logoBlack.png" class="il-logo-navbar">
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mx-auto">
@@ -23,13 +24,13 @@
                             Institucional
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Nosso espaço</a></li>
-                            <li><a class="dropdown-item" href="#">Professores</a></li>
-                            <li><a class="dropdown-item" href="#">Parceiros</a></li>
+                            <li><a class="dropdown-item" href="#espace">Nosso espaço</a></li>
+                            <li><a class="dropdown-item" href="#teachers">Professores</a></li>
+                            <li><a class="dropdown-item" href="#partners">Parceiros</a></li>
                         </ul>
                     </li>
                     <li class="nav-item pe-lg-5">
-                        <a class="nav-link" href="#">Cursos</a>
+                        <a class="nav-link" href="#courses">Cursos</a>
                     </li>
                     <li class="nav-item dropdown pe-lg-5">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -37,18 +38,18 @@
                             Social
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Workshops</a></li>
-                            <li><a class="dropdown-item" href="#">Eventos Galeria dos alunos</a></li>
+                            <li><a class="dropdown-item" href="#workshops">Workshops</a></li>
+                            <li><a class="dropdown-item" href="#events">Eventos Galeria dos alunos</a></li>
                         </ul>
                     </li>
                     <li class="nav-item pe-lg-5">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="#contact">Contato</a>
                     </li>
                     <li class="nav-item me-lg-5 pe-lg-5">
-                        <a class="nav-link" href="#">Extras</a>
+                        <a class="nav-link" href="#extras">Extras</a>
                     </li>
                     <li class="nav-item me-lg-5 pe-lg-5">
-                        <a class="nav-link" href="#"><img src="img/user.png" class="il-logo-navbar"></a>
+                        <a class="nav-link" href="#"><i class="fas fa-user-circle fa-2x"></i></a>
                     </li>
                 </ul>
             </div>
@@ -98,463 +99,495 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    <p class="h1">Nosso Espaço</p>
+                    <h1 class="h1 il-title-strong my-5" id="espace">Nosso Espaço</h1>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-5 col-sm bg-body-secondary rounded-1 my-lg-4">
-                    <h2 class="m-1">Quem somos</h2>
-                    <p class="lead px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non cum quasi
-                        voluptate reprehenderit voluptatem, error beatae porro qui fugit iusto odit tempora minus ut
-                        debitis? Vero distinctio deleniti quod quae? Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Maxime non in ea hic veniam voluptas nemo quis delectus, dicta possimus blanditiis earum
-                        consequatur, cum, adipisci temporibus itaque ipsa? Magni, nisi. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Rem, alias in. Culpa amet voluptas et similique rem. Possimus
-                        aperiam libero rerum illum recusandae unde sint quas, odio amet magni perspiciatis? Lorem ipsum
-                        dolor sit, amet </p>
-                </div>
-                <div class=" col-md-7 col-sm">
-                    <img src="img/5.jpg" class="img-fluid d-block w-lg-50 m-auto mt-lg-5 shadow-sm">
-                    <p>
-                        <button class="d-block m-auto btn btn-outline-info mt-2">VER MAIS</button>
-                    </p>
+                <div class="row mb-5">
+                    <div class="col-md-5 col-sm bg-body-secondary rounded-1 my-lg-4">
+                        <h2 class="m-1">Quem somos</h2>
+                        <p class="lead px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non cum quasi
+                            voluptate reprehenderit voluptatem, error beatae porro qui fugit iusto odit tempora minus ut
+                            debitis? Vero distinctio deleniti quod quae? Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit. Maxime non in ea hic veniam voluptas nemo quis delectus, dicta possimus blanditiis
+                            earum
+                            consequatur, cum, adipisci temporibus itaque ipsa? Magni, nisi. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Rem, alias in. Culpa amet voluptas et similique rem. Possimus
+                            aperiam libero rerum illum recusandae unde sint quas, odio amet magni perspiciatis? Lorem
+                            ipsum
+                            dolor sit, amet </p>
+                    </div>
+                    <div class=" col-md-7 col-sm">
+                        <img src="img/recepcao.png" class="img-fluid d-block w-lg-60 m-auto mt-lg-5 shadow-sm">
+                        <p class="my-3">
+                            <button class="d-block m-auto btn btn-lg btn-outline-info mt-2 px-5 py-4">VER MAIS</button>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--Cursos-->
-    <div class="bg-secondary">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <p class="h1 mt-3">Cursos</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm d-flex">
-                    <div
-                        class="bg-body rounded-top mt-3 w-75 d-flex flex-column justify-content-center align-items-center">
-                        <div class="form-check py-3 mt-4 d-block m-auto ms-5">
-                            <input class="form-check-input" type="checkbox" name="flexRadioDefault"
-                                id="flexRadioDefault">
-                            <label class="form-check-label" for="flexRadioDefault">
-                                Filtro 1
-                            </label>
-                        </div>
-                        <div class="form-check py-3 d-block m-auto ms-5">
-                            <input class="form-check-input" type="checkbox" name="flexRadioDefault"
-                                id="flexRadioDefault">
-                            <label class="form-check-label" for="flexRadioDefault">
-                                Filtro 2
-                            </label>
-                        </div>
-                        <div class="form-check py-3 d-block m-auto ms-5">
-                            <input class="form-check-input" type="checkbox" name="flexRadioDefault"
-                                id="flexRadioDefault">
-                            <label class="form-check-label" for="flexRadioDefault">
-                                Filtro 3
-                            </label>
-                        </div>
-                        <hr class="w-100">
-                        <div class="form-check py-3 d-block m-auto ms-5">
-                            <input class="form-check-input" type="checkbox" name="flexRadioDefault"
-                                id="flexRadioDefault">
-                            <label class="form-check-label" for="flexRadioDefault">
-                                Filtro 4
-                            </label>
-                        </div>
-                        <div class="form-check py-3 d-block m-auto ms-5">
-                            <input class="form-check-input" type="checkbox" name="flexRadioDefault"
-                                id="flexRadioDefault">
-                            <label class="form-check-label" for="flexRadioDefault">
-                                Filtro 5
-                            </label>
-                        </div>
-                        <div class="form-check py-3 d-block m-auto ms-5 mb-4">
-                            <input class="form-check-input" type="checkbox" name="flexRadioDefault"
-                                id="flexRadioDefault">
-                            <label class="form-check-label" for="flexRadioDefault">
-                                Filtro 6
-                            </label>
-                        </div>
+        <!--Cursos-->
+        <div class="bg-secondary courses">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <h1 class="h1 my-5 il-title-strong" id="courses">Cursos</h1>
                     </div>
                 </div>
-                <div class="col-sm">
-                    <div class="card il-card-cursos border-0 my-3">
-                        <img src="./img/cursos-card-01.jpg" class="card-img-top il-card-cursos" alt="...">
-                        <div class="card-img-overlay">
-                            <h1
-                                class="card-title il-title-card px-3 text-center text-white fs-3 w-100 il-card-description">
-                                PINTURA ACRÍLICA</h1>
-                            <p class="card-text text-transparent">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
-                                dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
-                                explicabo iusto quos qui a? Deserunt.
-                            </p>
+                <div class="row">
+                    <div class="col-sm d-flex">
+                        <div
+                            class="bg-body rounded mt-3 w-75 d-flex flex-column justify-content-center align-items-center mb-3">
+                            <div class="form-check py-3 mt-4 d-block m-auto ms-5">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault">
+                                <label class="form-check-label" for="flexRadioDefault">
+                                    Filtro 1
+                                </label>
+                            </div>
+                            <div class="form-check py-3 d-block m-auto ms-5">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault">
+                                <label class="form-check-label" for="flexRadioDefault">
+                                    Filtro 2
+                                </label>
+                            </div>
+                            <div class="form-check py-3 d-block m-auto ms-5">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault">
+                                <label class="form-check-label" for="flexRadioDefault">
+                                    Filtro 3
+                                </label>
+                            </div>
+                            <hr class="w-100">
+                            <div class="form-check py-3 d-block m-auto ms-5">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault">
+                                <label class="form-check-label" for="flexRadioDefault">
+                                    Filtro 4
+                                </label>
+                            </div>
+                            <div class="form-check py-3 d-block m-auto ms-5">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault">
+                                <label class="form-check-label" for="flexRadioDefault">
+                                    Filtro 5
+                                </label>
+                            </div>
+                            <div class="form-check py-3 d-block m-auto ms-5 mb-3">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault">
+                                <label class="form-check-label" for="flexRadioDefault">
+                                    Filtro 6
+                                </label>
+                            </div>
                         </div>
                     </div>
-                    <div class="card il-card-cursos border-0 my-3">
-                        <img src="./img/cursos-card-02.jpg" class="card-img-top il-card-cursos" alt="...">
-                        <div class="card-img-overlay">
-                            <h1 class="card-title il-title-card px-3 text-center text-white fs-3 w-100">PINTURA DIGITAL
-                            </h1>
-                            <p class="card-text text-transparent">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
-                                dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
-                                explicabo iusto quos qui a? Deserunt.
-                            </p>
+                    <div class="col-sm">
+                        <div class="card w-100 border-0 my-3">
+                            <img src="./img/cursos/cursos-card-01.jpg" class="card-img-top ww-100" alt="...">
+                            <div class="card-img-overlay">
+                                <h1
+                                    class="card-title il-title-card-courses px-3 text-center text-white fs-3 w-100 il-card-description">
+                                    PINTURA ACRÍLICA</h1>
+                                <p class="card-text text-transparent">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
+                                    dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
+                                    explicabo iusto quos qui a? Deserunt.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card w-100 border-0 my-3">
+                            <img src="./img/cursos/cursos-card-02.jpg" class="card-img-top ww-100" alt="...">
+                            <div class="card-img-overlay">
+                                <h1 class="card-title il-title-card-courses px-3 text-center text-white fs-3 w-100">PINTURA
+                                    DIGITAL
+                                </h1>
+                                <p class="card-text text-transparent">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
+                                    dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
+                                    explicabo iusto quos qui a? Deserunt.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card il-card-cursos border-0 my-3">
-                        <img src="./img/cursos-card-03.jpg" class="card-img-top il-card-cursos" alt="...">
-                        <div class="card-img-overlay">
-                            <h1 class="card-title il-title-card px-3 text-center text-white fs-3 w-100">CHARACTER DESIGN
-                            </h1>
-                            <p class="card-text text-transparent">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
-                                dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
-                                explicabo iusto quos qui a? Deserunt.
-                            </p>
+                    <div class="col-sm">
+                        <div class="card w-100 my-3">
+                            <img src="./img/cursos/cursos-card-03.jpg" class="card-img-top ww-100" alt="...">
+                            <div class="card-img-overlay">
+                                <h1 class="card-title il-title-card-courses px-3 text-center text-white fs-3 w-100">CHARACTER
+                                    DESIGN
+                                </h1>
+                                <p class="card-text text-transparent">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
+                                    dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
+                                    explicabo iusto quos qui a? Deserunt.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card w-100 border-0 my-3">
+                            <img src="./img/cursos/cursos-card-04.jpg" class="card-img-top ww-100" alt="...">
+                            <div class="card-img-overlay">
+                                <h1 class="card-title il-title-card-courses px-3 text-center text-white fs-3 w-100">
+                                    DIRECIONAMENTO
+                                    ARTÍSTICO</h1>
+                                <p class="card-text text-transparent">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
+                                    dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
+                                    explicabo iusto quos qui a? Deserunt.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card il-card-cursos border-0 my-3">
-                        <img src="./img/cursos-card-04.jpg" class="card-img-top il-card-cursos" alt="...">
-                        <div class="card-img-overlay">
-                            <h1 class="card-title il-title-card px-3 text-center text-white fs-3 w-100">DIRECIONAMENTO
-                                ARTÍSTICO</h1>
-                            <p class="card-text text-transparent">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
-                                dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
-                                explicabo iusto quos qui a? Deserunt.
-                            </p>
+                    <div class="col-sm">
+                        <div class="card w-100 border-0 my-3">
+                            <img src="./img/cursos/cursos-card-05.jpg" class="card-img-top ww-100" alt="...">
+                            <div class="card-img-overlay">
+                                <h1 class="card-title il-title-card-courses px-3 text-center text-white fs-3 w-100">ARTE PARA
+                                    CRIANÇAS</h1>
+                                <p class="card-text text-transparent">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
+                                    dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
+                                    explicabo iusto quos qui a? Deserunt.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card il-card-cursos border-0 my-3">
-                        <img src="./img/cursos-card-05.jpg" class="card-img-top il-card-cursos" alt="...">
-                        <div class="card-img-overlay">
-                            <h1 class="card-title il-title-card px-3 text-center text-white fs-3 w-100">ARTE PARA
-                                CRIANÇAS</h1>
-                            <p class="card-text text-transparent">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
-                                dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
-                                explicabo iusto quos qui a? Deserunt.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card il-card-cursos border-0 my-3">
-                        <img src="./img/cursos-card-06.jpg" class="card-img-top il-card-cursos" alt="...">
-                        <div class="card-img-overlay">
-                            <h1 class="card-title il-title-card px-3 text-center text-white fs-3 w-100">GUACHE</h1>
-                            <p class="card-text text-transparent">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
-                                dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
-                                explicabo iusto quos qui a? Deserunt.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm d-flex">
-                    <div
-                        class="bg-body rounded-bottom mb-3 w-75 d-flex flex-column justify-content-center align-items-center">
-                        <div class="form-check py-3 mt-4 d-block m-auto ms-5">
-                            <input class="form-check-input" type="checkbox" name="flexRadioDefault"
-                                id="flexRadioDefault">
-                            <label class="form-check-label" for="flexRadioDefault">
-                                Filtro 1
-                            </label>
-                        </div>
-                        <div class="form-check py-3 d-block m-auto ms-5">
-                            <input class="form-check-input" type="checkbox" name="flexRadioDefault"
-                                id="flexRadioDefault">
-                            <label class="form-check-label" for="flexRadioDefault">
-                                Filtro 2
-                            </label>
-                        </div>
-                        <div class="form-check py-3 d-block m-auto ms-5">
-                            <input class="form-check-input" type="checkbox" name="flexRadioDefault"
-                                id="flexRadioDefault">
-                            <label class="form-check-label" for="flexRadioDefault">
-                                Filtro 3
-                            </label>
+                        <div class="card w-100 border-0 my-3">
+                            <img src="./img/cursos/cursos-card-06.jpg" class="card-img-top ww-100" alt="...">
+                            <div class="card-img-overlay">
+                                <h1 class="card-title il-title-card-courses px-3 text-center text-white fs-3 w-100">GUACHE</h1>
+                                <p class="card-text text-transparent">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
+                                    dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
+                                    explicabo iusto quos qui a? Deserunt.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm">
-                    <div class="card il-card-cursos border-0 my-3">
-                        <img src="./img/cursos-card-07.jpg" class="card-img-top il-card-cursos" alt="...">
-                        <div class="card-img-overlay">
-                            <h1 class="card-title il-title-card px-3 text-center text-white fs-3 w-100">AQUARELA</h1>
-                            <p class="card-text text-transparent">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
-                                dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
-                                explicabo iusto quos qui a? Deserunt.
-                            </p>
+                <div class="row">
+                    <div class="col-sm d-flex">
+                    </div>
+                    <div class="col-sm">
+                        <div class="card w-100 border-0 my-3 mb-5">
+                            <img src="./img/cursos/cursos-card-07.jpg" class="card-img-top ww-100" alt="...">
+                            <div class="card-img-overlay">
+                                <h1 class="card-title il-title-card-courses px-3 text-center text-white fs-3 w-100">AQUARELA
+                                </h1>
+                                <p class="card-text text-transparent">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, et excepturi delectus
+                                    dolor nisi nam rem unde. Cum, error vitae. Optio, perferendis delectus? Suscipit
+                                    explicabo iusto quos qui a? Deserunt.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm">
+                    <div class="col-sm">
 
-                </div>
-                <div class="col-sm">
+                    </div>
+                    <div class="col-sm">
 
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Professores-->
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <p class="h1 my-3">Professores</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm">
-                    <div class="card w-100 my-3 il-mh-525">
-                        <img src="img/fael.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">FAEL IWAO</h3>
-                            <h5>TI</h5>
-                            <a href="#"><img src="img/instagram.png" class="il-w-20"></a>
-                            <a href="#"><img src="img/whatsapp.png" class="il-w-20"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card w-100 my-3 il-mh-525">
-                        <img src="img/thales.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">THALES MURILO</h3>
-                            <h5>Professor</h5>
-                            <a href="#"><img src="img/instagram.png" class="il-w-20"></a>
-                            <a href="#"><img src="img/whatsapp.png" class="il-w-20"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card w-100 my-3 il-mh-525">
-                        <img src="img/nat.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">NATÁLIA MARQUES</h3>
-                            <h5>Gerente de Marketing</h5>
-                            <a href="#"><img src="img/instagram.png" class="il-w-20"></a>
-                            <a href="#"><img src="img/whatsapp.png" class="il-w-20"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card w-100 my-3 il-mh-525">
-                        <img src="img/julio.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">JULIO ARCANJO</h3>
-                            <h5>Professor</h5>
-                            <a href="#"><img src="img/instagram.png" class="il-w-20"></a>
-                            <a href="#"><img src="img/whatsapp.png" class="il-w-20"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm">
-                    <div class="card w-100 my-3 il-mh-525">
-                        <img src="img/levi.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">LEVI AQUINO</h3>
-                            <h5>Professor</h5>
-                            <a href="#"><img src="img/instagram.png" class="il-w-20"></a>
-                            <a href="#"><img src="img/whatsapp.png" class="il-w-20"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card w-100 my-3 il-mh-525">
-                        <img src="img/digor.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">DIGOR NOGUEIRA</h3>
-                            <h5>Professor</h5>
-                            <a href="#"><img src="img/instagram.png" class="il-w-20"></a>
-                            <a href="#"><img src="img/whatsapp.png" class="il-w-20"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card w-100 my-3 il-mh-525">
-                        <img src="img/kamila.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">KAMILLA CHOLA</h3>
-                            <h5>Professora</h5>
-                            <a href="#"><img src="img/instagram.png" class="il-w-20"></a>
-                            <a href="#"><img src="img/whatsapp.png" class="il-w-20"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card w-100 my-3 il-mh-525">
-                        <img src="img/mel.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">MEL LIMA</h3>
-                            <h5>Coordenadora</h5>
-                            <a href="#"><img src="img/instagram.png" class="il-w-20"></a>
-                            <a href="#"><img src="img/whatsapp.png" class="il-w-20"></a>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--Workshops e Eventos-->
-    <div class="bg-secondary">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <p class="h1">Workshops e Eventos</p>
+        <!--Professores-->
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <h1 class="h1 my-5 il-title-strong" id="teachers">Professores</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card w-100 rounded-5 mt-5 il-card-teachers shadow-sm">
+                            <div class="il-container">
+                                <img src="img/professores/digor1.jpg" class="card-img-top il-border-top" alt="...">
+                                <img src="img/professores/digor2.jpg" class="card-img-top il-border-top il-top-img" alt="...">
+                            </div>
+                            <div class="card-body d-block il-card-h-10">
+                                <h5 class="card-title text-center il-fs-5 my-2">DIGOR NOGUEIRA</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card w-100 rounded-5 mt-5 il-card-teachers shadow-sm">
+                            <div class="il-container">
+                                <img src="img/professores/julio1.jpg" class="card-img-top il-border-top" alt="...">
+                                <img src="img/professores/julio2.jpg" class="card-img-top il-border-top il-top-img" alt="...">
+                            </div>
+                            <div class="card-body il-card-h-10">
+                                <h5 class="card-title text-center il-fs-5 my-2">JULIO ARCANJO</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card w-100 rounded-5 mt-5 il-card-teachers shadow-sm">
+                            <div class="il-container">
+                                <img src="img/professores/levi1.jpg" class="card-img-top il-border-top" alt="...">
+                                <img src="img/professores/levi2.jpg" class="card-img-top il-border-top il-top-img" alt="...">
+                            </div>
+                            <div class="card-body il-card-h-10">
+                                <h5 class="card-title text-center il-fs-5 my-2">LEVI AQUINO</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card w-100 rounded-5 mb-5 mt-3 il-card-teachers shadow-sm">
+                            <div class="il-container">
+                                <img src="img/professores/thales1.jpg" class="card-img-top il-border-top" alt="...">
+                                <img src="img/professores/thales2.jpg" class="card-img-top il-border-top il-top-img" alt="...">
+                            </div>
+                            <div class="card-body il-card-h-10">
+                                <h5 class="card-title text-center il-fs-5 my-2">THALES MURILO</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card w-100 rounded-5 mb-5 mt-3 il-card-teachers shadow-sm">
+                            <div class="il-container">
+                                <img src="img/professores/chola1.jpg" class="card-img-top il-border-top" alt="...">
+                                <img src="img/professores/chola2.jpg" class="card-img-top il-border-top il-top-img" alt="...">
+                            </div>
+                            <div class="card-body il-card-h-10">
+                                <h5 class="card-title text-center il-fs-5 my-2">KAMILLA CHOLA</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card w-100 rounded-5 mb-5 mt-3 il-card-teachers shadow-sm">
+                            <div class="il-container">
+                                <img src="img/professores/prof1.jpg" class="card-img-top il-border-top" alt="...">
+                                <img src="img/professores/prof2.jpg" class="card-img-top il-border-top il-top-img" alt="...">
+                            </div>
+                            <div class="card-body il-card-h-10">
+                                <h5 class="card-title text-center il-fs-5 my-2">PROF 1</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card w-100 rounded-5 mb-5 mt-3 il-card-teachers shadow-sm">
+                            <div class="il-container">
+                                <img src="img/professores/prof21.png" class="card-img-top il-border-top" alt="...">
+                                <img src="img/professores/prof22.png" class="card-img-top il-border-top il-top-img" alt="...">
+                            </div>
+                            <div class="card-body il-card-h-10">
+                                <h5 class="card-title text-center il-fs-5 my-2">PROF 2</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm"></div>
+                    <div class="col-sm"></div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm">
-                    <div class="card w-100 my-3 il-mh-525">
-                        <img src="img/mel.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">MEL LIMA</h3>
-                            <h5>Coordenadora</h5>
-                            <a href="#"><img src="img/instagram.png" class="il-w-20"></a>
-                            <a href="#"><img src="img/whatsapp.png" class="il-w-20"></a>
-                        </div>
+        </div>
+        <!--Workshops e Eventos-->
+        <div class="bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <h1 class="h1 il-title-strong my-5" id="workshops">Workshops e Eventos</h1>
                     </div>
                 </div>
-                <div class="col-sm">
-                    <div class="card w-100 my-3 il-mh-525">
-                        <img src="img/mel.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">MEL LIMA</h3>
-                            <h5>Coordenadora</h5>
-                            <a href="#"><img src="img/instagram.png" class="il-w-20"></a>
-                            <a href="#"><img src="img/whatsapp.png" class="il-w-20"></a>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card mb-3 rounded-5">
+                            <img src="img/professores/digor2.jpg" class="card-img-top rounded-circle py-4 px-4" alt="...">
+                            <div class="card-body p-0 m-0">
+                              <h3 class="card-title text-center">Digor Nogueira</h5>
+                                <button class="btn btn-primary w-100 il-rounded-top-0 rounded-5 p-4">
+                                    VER MAIS
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card w-100 my-3 il-mh-525">
-                        <img src="img/mel.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">MEL LIMA</h3>
-                            <h5>Coordenadora</h5>
-                            <a href="#"><img src="img/instagram.png" class="il-w-20"></a>
-                            <a href="#"><img src="img/whatsapp.png" class="il-w-20"></a>
+                    <div class="col-sm">
+                        <div class="card mb-3 rounded-5">
+                            <img src="img/professores/digor2.jpg" class="card-img-top rounded-circle py-4 px-4" alt="...">
+                            <div class="card-body p-0 m-0">
+                              <h3 class="card-title text-center">Digor Nogueira</h5>
+                                <button class="btn btn-primary w-100 rounded-top rounded-5 p-4 il-rounded-top-0">
+                                    VER MAIS
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card w-100 my-3 il-mh-525">
-                        <img src="img/mel.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">MEL LIMA</h3>
-                            <h5>Coordenadora</h5>
-                            <a href="#"><img src="img/instagram.png" class="il-w-20"></a>
-                            <a href="#"><img src="img/whatsapp.png" class="il-w-20"></a>
-                        </div>
+                    <div class="col-sm">
+
+                    </div>
+                    <div class="col-sm">
+
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm">
-                    <div class="card text-bg-dark my-4">
-                        <img src="img/1280x720.png" class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                            <p class="card-text text-end text-secondary ps-5 ms-5 mt-3 me-4 lead">Lorem, ipsum dolor sit
-                                amet consectetur adipisicing elit. Sed, nostrum ipsam natus tempore quidem nobis
-                                temporibus soluta cupiditate perspiciatis dolorum beatae</p>
-                            <p>
-                                <a href="#" class="btn btn-primary il-button-center mb-2">Go somewhere</a>
-                            </p>
-                        </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card text-bg-dark my-5 rounded-5">
+                            <img src="img/1280x720.png" class="rounded-5 card-img" alt="...">
+                            <div class="card-img-overlay text-start text-secondary w-100 ms-5">
+                              <h4 class="card-title pt-4">Nome do evento</h4>
+                              <p class="card-text fs-2">99/99</p>
+                              <button class="btn btn-primary rounded-pill il-card-button">
+                                    Veja Mais >
+                              </button>
+                            </div>
+                          </div>
                     </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card text-bg-dark my-4">
-                        <img src="img/1280x720.png" class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                            <p class="card-text text-end text-secondary ps-5 ms-5 mt-3 me-4 lead">Lorem, ipsum dolor sit
-                                amet consectetur adipisicing elit. Sed, nostrum ipsam natus tempore quidem nobis
-                                temporibus soluta cupiditate perspiciatis dolorum beatae</p>
-                            <p>
-                                <a href="#" class="btn btn-primary il-button-center mb-2">Go somewhere</a>
-                            </p>
-                        </div>
+                    <div class="col-sm">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--Parceiros-->
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <p class="h1">Parceiros</p>
+        <!--Parceiros-->
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <h1 class="h1 il-title-strong my-5" id="partners">Parceiros</h1>
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card shadow-lg m-5 rounded-5 w-100">
+                            <div class="card-body lead">
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <img src="img/icons/logoBlack.png" alt="" class="w-50 d-block m-auto mt-4">
+                                        <div class="row">
+                                            <div class="col-sm d-flex align-items-center justify-content-center">
+                                                <i class="fab fa-instagram fa-2x mx-3 my-3"></i> 
+                                                <i class="fab fa-facebook fa-2x mx-3 my-3"></i> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <h3 class="h3 mt-3">Nome do Parceiro</h3>
+                                        <p class="lead">
+                                            <a href="#" class="text-decoration-none">
+                                                <i class="fab fa-instagram fa-2x mx-2"></i>
+                                                Link Parceiro
+                                            </a>
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-sm">
+                                                <ul class="ms-4 lead">
+                                                    <li>Vantagem 1</li>
+                                                    <li>Vantagem 2</li>
+                                                    <li>Vantagem 3</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm">
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card mb-3 rounded-5 shadow-lg mx-5 w-100 mb-5">
+                            <img src="img/professores/digor2.jpg" class="card-img-top rounded-circle py-4 px-4" alt="...">
+                            <div class="card-body p-0 m-0">
+                              <h3 class="card-title text-center">Digor Nogueira</h5>
+                                <button class="btn btn-primary w-100 rounded-top rounded-5 p-4 il-rounded-top-0">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card mb-3 rounded-5 shadow-lg mx-5 w-100 mb-5">
+                            <img src="img/professores/digor2.jpg" class="card-img-top rounded-circle py-4 px-4" alt="...">
+                            <div class="card-body p-0 m-0">
+                              <h3 class="card-title text-center">Digor Nogueira</h5>
+                                <button class="btn btn-primary w-100 rounded-top rounded-5 p-4 il-rounded-top-0">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        
+                    </div>
+                    <div class="col-sm">
+                        
+                    </div>
+                </div>
+                
             </div>
-            <div class="row">
-                <div class="bg-primary my-5">
-                    <div class="col-sm"><img src="img/parceria-universitaria.png"
-                            class="img-fluid w-50 my-3 d-block mx-auto "></div>
+        </div>
+        <!--Contato-->
+        <div class="bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div>
+                            <h1 class="h1 il-title-strong mt-5" id="contact">Contato</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <ul class="my-5 list-unstyled">
+                            <li> 
+                                <div class="btn btn-primary w-100 text-start rounded-0 rounded-top py-4"><i class="fas fa-envelope fa-2x mx-3"></i> <a href="#"
+                                        class="text-decoration-none text-white"> ptodefuga@gmail.com</a>
+                                </div>
+                            </li>
+                            <li> 
+                                <div class="btn btn-primary w-100 text-start rounded-0 py-4">
+                                    <i class="fab fa-whatsapp fa-2x mx-3"></i><a href="#"
+                                        class="text-decoration-none text-white">(11) 91050-5076</a>
+                                </div>            
+                            </li>
+                            <li> 
+                                <div class="btn btn-primary w-100 text-start rounded-0 py-4">
+                                    <i class="fab fa-facebook fa-2x mx-3"></i> <a href="#"
+                                        class="text-decoration-none text-white">@pontodefugaestudiodearte
+                                </div></a>
+                            </li>
+                            <li> 
+                                <div class="btn btn-primary w-100 text-start rounded-0 py-4">
+                                    <i class="fab fa-instagram fa-2x mx-3"></i> <a href="#"
+                                        class="text-decoration-none text-white">@pontodefugaestudio</a>
+                                </div>
+                            </li>
+                            <li> 
+                                <div class="btn btn-primary w-100 text-start rounded-0 rounded-bottom py-4">
+                                    <i class="fas fa-map-marker-alt fa-2x mx-3"></i> <a href="#"
+                                        class="text-decoration-none text-white">Rua Tuiuti 2362, Tatuapé - São Paulo</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <img src="img/icons/logoWhite.png" class="w-50 d-block mx-auto mt-5 pt-5">
+                    </div>
+                    <span>
+                        <a href="https://api.whatsapp.com/send?phone=11910505076" target="_blank"
+                            class="il-whatsapp-button text-decoration-none">
+                            <span class="bg-white py-3 px-3 il-rounded-start-5 shadow-lg il-me-n1">ENTRE EM CONTATO</span>
+                            <img src="img/icons/whatsapp-green.png" class="il-whatsapp-button-size">
+                        </a>
+                    </span>
                 </div>
             </div>
         </div>
-    </div>
-    <!--Contato-->
-    <div class="bg-secondary">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <p class="h1">Contato</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm">
-                    <ul class="mt-4 list-unstyled">
-                        <li> <img src="img/email.png" class="il-logo-navbar my-3"> <a href="#"
-                                class="text-decoration-none text-white"> ptodefuga@gmail.com</a></li>
-                        <li> <img src="img/whatsapp.png" class="il-logo-navbar my-3"> <a href="#"
-                                class="text-decoration-none text-white">(11) 91050-5076</a></li>
-                        <li> <img src="img/facebook.png" class="il-logo-navbar my-3"> <a href="#"
-                                class="text-decoration-none text-white">@pontodefugaestudiodearte</a></li>
-                        <li> <img src="img/instagram.png" class="il-logo-navbar my-3"> <a href="#"
-                                class="text-decoration-none text-white">@pontodefugaestudio</a></li>
-                        <li> <img src="img/location.png" class="il-logo-navbar my-3"> <a href="#"
-                                class="text-decoration-none text-white">Rua Tuiuti 2362, Tatuapé - São Paulo</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm">
-                    <img src="img/logoWhite.png" class="w-50 d-block mx-auto">
-                    <p class="lead text-white my-4">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur aliquam, tenetur quo
-                        beatae fugit quaerat harum asperiores totam velit quod neque magnam eius rem impedit deleniti
-                        maiores quibusdam debitis enim!
-                    </p>
-                </div>
-                <span>
-                    <a href="https://api.whatsapp.com/send?phone=11910505076"
-                        class="il-whatsapp-button text-decoration-none">
-                        <img src="img/whatsapp.png" class="il-whatsapp-button-size">
-                        <span>ENTRE EM CONTATO</span>
-                    </a>
-                </span>
-            </div>
-        </div>
-    </div>
+        <footer class="text-center p-5 bg-secondary text-white">
+            Todos os direitos reservados à Ilustra Mundo © 2024
+        </footer>
 
 
-    <script src="./lib/bootstrap/popper.min.js"></script>
-    <script src="./lib/bootstrap/bootstrap.min.js"></script>
-    <script src="./js/main.js"></script>
+        <script src="./lib/bootstrap/popper.min.js"></script>
+        <script src="./lib/bootstrap/bootstrap.min.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="lib/fontawesome/js/all.min.js"></script>
 </body>
 
 </html>
